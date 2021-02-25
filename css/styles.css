@@ -1,6 +1,4 @@
-* {
 
-}
 
 .gallery {
     margin: 20px auto;
@@ -13,8 +11,6 @@
 .gallery img {
     width: 100%;
 }
-
-
 
 .search-bar input[type=search] {
     display: block;
