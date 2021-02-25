@@ -8,5 +8,20 @@ baguetteBox.run('.gallery', {
     overlayBackgroundColor: 'rgba(0, 0, 0, .8)',
 });
 
+const search = document.getElementById('search');
 
-const search = new Filter('search', 'data-caption');
+search.addEventListener('keyup', (e) => {
+    const userSearch = e.target.value.toLowerCase();
+    console.log(userSearch);
+
+});
+
+/*function mySearchFunction() {
+    var input, filter, gallery, a, data;
+    input = document.getElementById('search');
+    filter = input.value.toLowerCase();
+    gallery = document.getElementByClassName('gallery');
+    a = gallery.getElementByTagName('a');
+}
+*/
+
