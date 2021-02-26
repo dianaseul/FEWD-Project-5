@@ -3,11 +3,10 @@
     margin: 20px auto;
     display: grid;
     max-width: 900px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* responsive grid without media query */
+    grid-gap: 1rem;
 }
 
-/* responsive grid without media query */
 .gallery img {
     width: 100%;
 }
@@ -16,7 +15,7 @@
 .search-bar input[type=search] {
     display: block;
     margin: 0 auto 30px;
-    width: 500px;
+    width: 40%;
     height: 50px;
     border: lightgrey solid 2px;
     border-radius: 5px;
