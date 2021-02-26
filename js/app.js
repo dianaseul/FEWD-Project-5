@@ -30,7 +30,7 @@ function mySearchFunction() {
         } else {
             a[i].style.display = 'none';
         } 
-    };
+    }
 } 
 
 
